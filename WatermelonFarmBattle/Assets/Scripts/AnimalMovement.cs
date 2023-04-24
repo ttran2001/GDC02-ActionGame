@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class AnimalMovement : MonoBehaviour
 {
+
+	[Header("Set ")]
 	public GameObject goal; 
 	public float speed; // animals speed
 	public int health; // animals health
@@ -9,7 +11,7 @@ public class AnimalMovement : MonoBehaviour
 	// Update 
 	void Update()
 	{
-		transform.Translate(0,0,1 * speed * Time.deltaTime);
+		transform.Translate(0,0,1 * speed * Time.deltaTime); // Moves the
 
 	}
 	
