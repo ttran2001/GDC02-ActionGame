@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,4 +20,26 @@ public class Goal : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1); // Load the next scene of the game. Last screen it will load is the Game Over scene
         }
     }
+=======
+using UnityEngine; 
+using System.Collections;
+
+public class Goal : MonoBehaviour
+{
+
+	[Header("Set Dynamically")]
+	public int goalHealth = 5;
+
+	VoidOnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.tag == "animal")
+		{
+			goalHealth--;
+			if (goalHealth <= 0)
+			{
+				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			}
+		}
+	}
+>>>>>>> ff7b931a248a824477f6078e06044a12d222d770
 }
