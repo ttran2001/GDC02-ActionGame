@@ -1426,6 +1426,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fc007040ddf56d841ad2083f918a0924, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &476602834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1632,6 +1633,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 481133857}
   m_CullTransparentMesh: 1
 >>>>>>> ff7b931a248a824477f6078e06044a12d222d770
+=======
+>>>>>>> parent of 04243a1 (changes)
 =======
 >>>>>>> parent of 04243a1 (changes)
 --- !u!1001 &488490260
@@ -1969,6 +1972,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: aec8969d0290c6d4cbc587ef85a01ce4, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &611453603 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3008297296413678391, guid: cb422acdc199d6e42910f589b81c283b,
@@ -2193,6 +2197,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 624461274}
   m_CullTransparentMesh: 1
 >>>>>>> ff7b931a248a824477f6078e06044a12d222d770
+=======
+>>>>>>> parent of 04243a1 (changes)
 =======
 >>>>>>> parent of 04243a1 (changes)
 --- !u!1001 &626270119
@@ -4459,6 +4465,7 @@ MeshFilter:
   m_Mesh: {fileID: -6320001982633638869, guid: 88133688ce354be4c85e1c167e475c5a, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1124634298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4884,6 +4891,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1130076592}
   m_CullTransparentMesh: 1
 >>>>>>> ff7b931a248a824477f6078e06044a12d222d770
+=======
+>>>>>>> parent of 04243a1 (changes)
 =======
 >>>>>>> parent of 04243a1 (changes)
 --- !u!1001 &1149474748
@@ -6479,6 +6488,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 1a2e91ebc86d2c84ca817eb30abe86d4, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1721073632 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3008297296413678391, guid: cb422acdc199d6e42910f589b81c283b,
@@ -6660,6 +6670,8 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 >>>>>>> ff7b931a248a824477f6078e06044a12d222d770
+=======
+>>>>>>> parent of 04243a1 (changes)
 =======
 >>>>>>> parent of 04243a1 (changes)
 --- !u!1001 &1737066801
@@ -7912,6 +7924,7 @@ MeshFilter:
   m_Mesh: {fileID: -6320001982633638869, guid: 88133688ce354be4c85e1c167e475c5a, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &2070505071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8124,6 +8137,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 2063822964}
   m_CullTransparentMesh: 1
 >>>>>>> ff7b931a248a824477f6078e06044a12d222d770
+=======
+>>>>>>> parent of 04243a1 (changes)
 =======
 >>>>>>> parent of 04243a1 (changes)
 --- !u!1001 &2084445384
