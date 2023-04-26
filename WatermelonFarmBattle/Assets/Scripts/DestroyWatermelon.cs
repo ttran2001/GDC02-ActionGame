@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectDestroyed : MonoBehaviour
+public class DestroyWatermelon : MonoBehaviour
 {
 
     void OnTriggerEnter(Collider other){
-        if(other.gameObject.tag == "Cat"){
+        if(other.gameObject.tag == "Animal"){
             Destroy(this.gameObject); 
         }
     }
