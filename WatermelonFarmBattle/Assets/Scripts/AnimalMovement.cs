@@ -26,5 +26,9 @@ public class AnimalMovement : MonoBehaviour
 				Destroy(gameObject); 
 			}
 		}
+		if(goal.gameObject.CompareTag("Garden"))
+		{
+			Destroy(gameObject);
+		}
 	}
 }

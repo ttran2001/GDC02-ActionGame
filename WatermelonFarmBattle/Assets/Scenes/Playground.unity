@@ -1033,7 +1033,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1287295899898638, guid: 9ec060093457ad84ca2733cb15c2c41e, type: 3}
       propertyPath: m_TagString
-      value: Animal
+      value: Cow
       objectReference: {fileID: 0}
     - target: {fileID: 4054502789990554, guid: 9ec060093457ad84ca2733cb15c2c41e, type: 3}
       propertyPath: m_RootOrder
@@ -1385,7 +1385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1055064919166404, guid: de6abd774f85e18408346a3233418242, type: 3}
       propertyPath: m_TagString
-      value: Animal
+      value: Pig
       objectReference: {fileID: 0}
     - target: {fileID: 4597376258575022, guid: de6abd774f85e18408346a3233418242, type: 3}
       propertyPath: m_RootOrder
@@ -1393,7 +1393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4597376258575022, guid: de6abd774f85e18408346a3233418242, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.031055
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4597376258575022, guid: de6abd774f85e18408346a3233418242, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1853,6 +1853,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81dad7d5552c9a341b390c79338fe0a4, type: 3}
+--- !u!1 &172819952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8209775890509911002, guid: c4fa87cd4eff4ae4ba4c8d1ad48df5f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 70777212}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &172819957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172819952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e18cbda2291da418991cb085a6140a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goalHealth: 100
 --- !u!1001 &181623865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2984,9 +3003,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf155e0aae31de242ad863a9302db086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 0}
-  speed: 0
-  health: 0
+  goal: {fileID: 172819952}
+  speed: 5
+  health: 3
+--- !u!65 &295759199
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295759189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.39488983, y: 0.60054964, z: 0.654078}
+  m_Center: {x: 0.000000029802322, y: 0.29665187, z: -0.036257103}
 --- !u!1001 &298980824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4248,7 +4280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1522729216997060, guid: 32026357c04e0e944835774b42e3c1b7, type: 3}
       propertyPath: m_TagString
-      value: Animal
+      value: Duck
       objectReference: {fileID: 0}
     - target: {fileID: 4346093141753912, guid: 32026357c04e0e944835774b42e3c1b7, type: 3}
       propertyPath: m_RootOrder
@@ -6181,9 +6213,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf155e0aae31de242ad863a9302db086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 0}
-  speed: 0
-  health: 0
+  goal: {fileID: 172819952}
+  speed: 4
+  health: 10
+--- !u!65 &575813431
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575813421}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5320263, y: 0.8927839, z: 1.268981}
+  m_Center: {x: 0.000000059604645, y: 0.4438215, z: 0.119502544}
 --- !u!1001 &584055074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6496,9 +6541,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf155e0aae31de242ad863a9302db086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 0}
-  speed: 3
-  health: 0
+  goal: {fileID: 172819952}
+  speed: 5
+  health: 3
+--- !u!65 &629788441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629788431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.47488832, y: 0.71676344, z: 0.6100489}
+  m_Center: {x: 0.000000007450581, y: 0.36196527, z: 0.00050891936}
 --- !u!4 &642480857 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3008297296413678391, guid: cb422acdc199d6e42910f589b81c283b,
@@ -12084,7 +12142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1965851562501010, guid: e82139b3bae6212439ea1e85ad29678b, type: 3}
       propertyPath: m_TagString
-      value: Animal
+      value: Sheep
       objectReference: {fileID: 0}
     - target: {fileID: 4589997030424458, guid: e82139b3bae6212439ea1e85ad29678b, type: 3}
       propertyPath: m_RootOrder
@@ -14400,9 +14458,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf155e0aae31de242ad863a9302db086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 0}
-  speed: 0
-  health: 0
+  goal: {fileID: 172819952}
+  speed: 3
+  health: 7
+--- !u!65 &1327660482
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327660472}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4093125, y: 0.697812, z: 1.1939198}
+  m_Center: {x: 0.000000014901161, y: 0.34174016, z: 0.11479871}
 --- !u!4 &1328636481 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3008297296413678391, guid: cb422acdc199d6e42910f589b81c283b,
@@ -15906,6 +15977,134 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81dad7d5552c9a341b390c79338fe0a4, type: 3}
+--- !u!1 &1469540924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469540926}
+  - component: {fileID: 1469540925}
+  m_Layer: 0
+  m_Name: On the Farm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1469540925
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469540924}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d08ebcf05a5e3d737a292577fc84fb87, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.35
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1469540926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469540924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 243
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1470631813
 GameObject:
   m_ObjectHideFlags: 0
@@ -20294,7 +20493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1206511787925574, guid: 3b1e3e9155d404942bc65d9aa80120ba, type: 3}
       propertyPath: m_TagString
-      value: Animal
+      value: Chicken
       objectReference: {fileID: 0}
     - target: {fileID: 4309743995697292, guid: 3b1e3e9155d404942bc65d9aa80120ba, type: 3}
       propertyPath: m_RootOrder
@@ -21577,9 +21776,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf155e0aae31de242ad863a9302db086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 0}
-  speed: 0
-  health: 0
+  goal: {fileID: 172819952}
+  speed: 2
+  health: 15
+--- !u!65 &2040181315
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040181305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.92018014, y: 1.5878397, z: 2.2048335}
+  m_Center: {x: 0.0036770701, y: 0.7879247, z: 0.18635759}
 --- !u!4 &2040817122 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3008297296413678391, guid: cb422acdc199d6e42910f589b81c283b,
