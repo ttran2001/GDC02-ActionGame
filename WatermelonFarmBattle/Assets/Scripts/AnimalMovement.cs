@@ -7,6 +7,7 @@ public class AnimalMovement : MonoBehaviour
 	public GameObject goal; 
 	public float speed; // animals speed
 	public int health; // animals health
+	public int score;
 
 	// Update 
 	void Update()
@@ -23,7 +24,9 @@ public class AnimalMovement : MonoBehaviour
 			
 			if(health <= 0)
 			{
-				Destroy(gameObject); 
+				ScoreScript.scoreValue+=score; 
+				Destroy(gameObject);
+				 
 			}
 		}
 		if(goal.gameObject.CompareTag("Garden"))

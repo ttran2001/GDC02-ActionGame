@@ -5,28 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class Goal : MonoBehaviour
 {
-
-	[Header("Set Dynamically")]
-	public int goalHealth = 5;
-
 	void VoidOnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.tag == "Cow")
 		{
-			goalHealth=goalHealth-15;
+			HealthScript.healthValue-=15;
 			
 		}
 		if (other.gameObject.tag == "Sheep"){
-			goalHealth=goalHealth-10;
+			HealthScript.healthValue-=10;
 		}
 		if (other.gameObject.tag == "Pig"){
-			goalHealth=goalHealth-8; 
+			HealthScript.healthValue-=8; 
 		}
 		if(other.gameObject.tag == "Chicken" || other.gameObject.tag == "Duck"){
-			goalHealth=goalHealth-5;
+			HealthScript.healthValue-=5;
+			
 		} 
 
-		if (goalHealth <= 0)
+		if (HealthScript.healthValue <= 0)
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 		}
