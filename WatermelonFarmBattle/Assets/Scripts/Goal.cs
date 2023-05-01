@@ -25,7 +25,7 @@ public class Goal : MonoBehaviour
 
 		if (HealthScript.healthValue <= 0)
 		{
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			SceneManager.LoadScene("LoseScene");
 		}
 	}
 }

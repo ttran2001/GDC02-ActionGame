@@ -7826,7 +7826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   farmAnimals: {fileID: 4369867888283688559, guid: 8381dbd8ee6afcf41a5e3d99ce52bc76,
     type: 3}
-  spawnRate: 12
+  spawnRate: 24
 --- !u!114 &750577993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7841,7 +7841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   farmAnimals: {fileID: 1518103192308779528, guid: 032ba2e989f311b498efc1f97f5d0403,
     type: 3}
-  spawnRate: 16
+  spawnRate: 18
 --- !u!114 &750577994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7856,7 +7856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   farmAnimals: {fileID: 999276379766978705, guid: c73451c24d65d1e40a5bb9b1ed55c3a4,
     type: 3}
-  spawnRate: 20
+  spawnRate: 30
 --- !u!114 &750577995
 MonoBehaviour:
   m_ObjectHideFlags: 0
