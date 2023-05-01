@@ -1,8 +1,9 @@
-/*
+
 using System.Collections; 
 using System.Collections.Generic; 
 using UnityEngine; 
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; 
 
 public class CountdownTimer : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class CountdownTimer : MonoBehaviour
 	float startingTime = 10f; 
 	
 	
-	[SerializeField] Text countdownText;
+	[SerializeField] 
+	Text countdownText;
 	
 	
 	void Start()
@@ -28,4 +30,3 @@ public class CountdownTimer : MonoBehaviour
 		} 
 	}
 }
-*/

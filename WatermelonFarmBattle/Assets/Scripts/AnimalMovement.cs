@@ -4,7 +4,6 @@ public class AnimalMovement : MonoBehaviour
 {
 
 	[Header("Set ")]
-	public GameObject goal; 
 	public float speed; // animals speed
 	public int health; // animals health
 	public int score;
@@ -16,9 +15,9 @@ public class AnimalMovement : MonoBehaviour
 
 	}
 	
-	private void OnCollisionEnter(Collision collision)
+	void OnTriggerEnter(Collider other)
 	{
-		if(collision.gameObject.CompareTag("Pellet"))
+		if(other.gameObject.tag == "Pellet")
 		{
 			health--; 
 			
@@ -29,7 +28,7 @@ public class AnimalMovement : MonoBehaviour
 				 
 			}
 		}
-		if(goal.gameObject.CompareTag("Garden"))
+		if(other.gameObject.tag == "Garden")
 		{
 			Destroy(gameObject);
 		}
