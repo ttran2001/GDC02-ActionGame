@@ -8,11 +8,10 @@ using UnityEngine.SceneManagement;
 public class CountdownTimer : MonoBehaviour
 {
 	float currentTime = 0f; 
-	float startingTime = 10f; 
+	float startingTime = 300f; 
 	
 	
-	[SerializeField] 
-	Text countdownText;
+	[SerializeField] Text countdownText;
 	
 	
 	void Start()
