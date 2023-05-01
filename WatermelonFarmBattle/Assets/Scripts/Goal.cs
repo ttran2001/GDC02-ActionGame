@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Goal : MonoBehaviour
 {
-	void VoidOnTriggerEnter(Collider other)
+	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.tag == "Cow")
 		{
