@@ -8383,8 +8383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   farmAnimals: {fileID: 1327660472}
-  xPos: 0
-  zPos: 0
+  spawnRate: 15
 --- !u!114 &750577992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8398,8 +8397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   farmAnimals: {fileID: 575813421}
-  xPos: 0
-  zPos: 0
+  spawnRate: 12
 --- !u!114 &750577993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8413,8 +8411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   farmAnimals: {fileID: 295759189}
-  xPos: 0
-  zPos: 0
+  spawnRate: 10
 --- !u!114 &750577994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8428,8 +8425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   farmAnimals: {fileID: 2040181305}
-  xPos: 0
-  zPos: 0
+  spawnRate: 20
 --- !u!114 &750577995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8443,8 +8439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   farmAnimals: {fileID: 629788431}
-  xPos: 0
-  zPos: 0
+  spawnRate: 10
 --- !u!1001 &753047413
 PrefabInstance:
   m_ObjectHideFlags: 0

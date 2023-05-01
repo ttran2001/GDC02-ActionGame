@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject farmAnimals;
-    public int xPos;
-    public int zPos;
+    public float spawnRate;
+    private int xPos;
 
     // Start is called before the first frame update
     void Start()
@@ -16,11 +16,12 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator EnemyDrop()
     {
+        yield return new WaitForSeconds(spawnRate);
         while (true)
         {
             xPos = UnityEngine.Random.Range(-16, 24);
             Instantiate(farmAnimals, new Vector3(xPos, 0, -10), Quaternion.identity);
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(spawnRate);
         }
     }
 }
