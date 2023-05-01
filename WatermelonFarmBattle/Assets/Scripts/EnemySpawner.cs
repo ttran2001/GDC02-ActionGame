@@ -1,13 +1,10 @@
-/*
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Collections.Specialized;
-using UnityEngine.Random;
+using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject farmAnimals; 
+    public GameObject farmAnimals;
     public int xPos;
     public int zPos;
 
@@ -19,14 +16,11 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator EnemyDrop()
     {
-        while(true)
+        while (true)
         {
-            xPos = Random.Range(-16, 24);
+            xPos = UnityEngine.Random.Range(-16, 24);
             Instantiate(farmAnimals, new Vector3(xPos, 0, -10), Quaternion.identity);
             yield return new WaitForSeconds(2f);
-
         }
     }
-
 }
-*/
