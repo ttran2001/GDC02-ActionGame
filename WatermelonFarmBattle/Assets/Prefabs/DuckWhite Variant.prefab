@@ -194,4 +194,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   health: 3
-  score: 0
+  score: 5
