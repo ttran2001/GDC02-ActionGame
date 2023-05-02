@@ -15,20 +15,19 @@ public class AnimalMovement : MonoBehaviour
 
 	}
 	
-	void OnTriggerEnter(Collider other)
+	void OnCollisionEnter(Collision collision)
 	{
-		if(other.gameObject.tag == "Pellet")
+		if(collision.gameObject.tag == "Pellet")
 		{
 			health--; 
 			
 			if(health <= 0)
 			{
-				ScoreScript.scoreValue+=score; 
 				Destroy(gameObject);
-				 
+				ScoreScript.scoreValue = ScoreScript.scoreValue+score;
 			}
 		}
-		if(other.gameObject.tag == "Garden")
+		if(collision.gameObject.tag == "Garden")
 		{
 			Destroy(gameObject);
 		}
