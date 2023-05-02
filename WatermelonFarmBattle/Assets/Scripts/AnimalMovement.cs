@@ -25,6 +25,9 @@ public class AnimalMovement : MonoBehaviour
 			{
 				Destroy(gameObject);
 				ScoreScript.scoreValue = ScoreScript.scoreValue+score;
+				if (ScoreScript.scoreValue > HighScore.score){
+                HighScore.score = score;
+            }
 			}
 		}
 		if(collision.gameObject.tag == "Garden")
