@@ -7,21 +7,24 @@ public class Goal : MonoBehaviour
 {
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.tag == "Cow")
+		if (other.gameObject.CompareTag("Cow"))
 		{
 			HealthScript.healthValue-=15;
-			
+			Destroy(other.gameObject);
 		}
-		if (other.gameObject.tag == "Sheep"){
+		if (other.gameObject.CompareTag("Sheep")){
 			HealthScript.healthValue-=10;
+			Destroy(other.gameObject);
 		}
-		if (other.gameObject.tag == "Pig"){
+		if (other.gameObject.CompareTag( "Pig")){
 			HealthScript.healthValue-=8; 
+			Destroy(other.gameObject);
 		}
-		if(other.gameObject.tag == "Chicken" || other.gameObject.tag == "Duck"){
+		if(other.gameObject.CompareTag("Chicken") || other.gameObject.CompareTag("Duck")){
 			HealthScript.healthValue-=5;
-			
+			Destroy(other.gameObject);		
 		} 
+		
 
 		if (HealthScript.healthValue <= 0)
 		{

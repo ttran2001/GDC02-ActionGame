@@ -97,6 +97,7 @@ namespace StarterAssets
 
 		private void Start()
 		{
+			Cursor.visible = false;
 			_controller = GetComponent<CharacterController>();
 			_input = GetComponent<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED

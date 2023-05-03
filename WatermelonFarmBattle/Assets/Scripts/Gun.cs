@@ -33,7 +33,6 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
-        Debug.Log("shoot!");
         GameObject pellet = Instantiate(pelletPrefab, pelletPoint.transform.position, transform.rotation);
         pellet.GetComponent<Rigidbody>().AddForce(transform.forward * pelletSpeed);
         Destroy(pellet, 1); 
