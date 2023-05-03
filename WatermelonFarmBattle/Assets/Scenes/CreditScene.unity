@@ -161,7 +161,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00080264, y: -420}
+  m_AnchoredPosition: {x: -0.00080264, y: -427}
   m_SizeDelta: {x: 489.62, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &575476623
@@ -466,7 +466,8 @@ MonoBehaviour:
   m_text: "On the Farm (Free Music) by LUDOLOON STUDIO\nSci-Fi Gun Light by FACTORY
     OF MODELS \nFarm Animals Set by VERTEX CAT\nLow Poly Farm Pack Lite by JUSTCREATE\nWatermelon
     PBR Free by MEOWVORTY\nChicken in a Barn 5 by QuickSounds.com\nSheeps by QuickSounds.com\nMallard
-    Duck Call by QuickSounds.com\nPig Grunt by qubodup on pixabay"
+    Duck Call by QuickSounds.com\nPig Grunt by qubodup on pixabay\nSquirm Worm by
+    TrackTribe\nLos Bilibicos by E's Jammy Jams"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -493,8 +494,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
