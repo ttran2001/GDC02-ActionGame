@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HealthScript : MonoBehaviour
 {
-    public static float healthValue = 100f;
+    static public float healthValue = 100f;
     [SerializeField] Text health;
 
     // Update is called once per frame
